@@ -20,6 +20,8 @@ int
 main ()
 {
   B b;
+  b.x;
+  b.y;
   b.display ();
   return 0;
 }
